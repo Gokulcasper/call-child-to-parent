@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import './App.css';
 import Callback from './Callback';
 
-
-
 // Parent
 const App = () => {
   const [UIcolor, setUIColor] = useState(null);

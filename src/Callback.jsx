@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Callback = ({ getColor }) => {
-  const [activeColor, setActiveColor] = useState();
+  const [activeColor, setActiveColor] = useState(getColor);
 
   const handleChange = (e) => {
     const { value } = e.target;
